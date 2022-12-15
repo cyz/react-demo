@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# 🎭 Playwright: Rick And Morty API com React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Repositório com exemplo de implementação do **[Playwright](https://playwright.dev/)**, um framework open source de testes E2E da Microsoft. Este app foi criado com o template [Create React App](https://github.com/facebook/create-react-app) e consome dados da [Rick and Morty API](https://rickandmortyapi.com/).
 
-## Available Scripts
+## 🔥 Executando as Demos!
 
-In the project directory, you can run:
+Basta seguir os comando abaixo:
 
-### `npm start`
+```bash
+> git clone https://github.com/cyz/react-demo.git
+> cd react-demo
+> # instalando das dependências
+> yarn install 
+> # execução do testes
+> yarn test-ct
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Se você não tem o yarn instalado, execute o comando:
+```bash
+> npm install --g yarn
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+E, não se esqueça de incluir seus dados pessoais de senha e usuário em algumas demos de exemplo! Dúvidas, podem entrar em contato comigo!
 
-### `npm test`
+## 🚀 Recursos Utilizados
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **[Playwright](https://www.npmjs.com/package/playwright)**
+* **[Vs Code Extensions - Playwright Snippets](https://marketplace.visualstudio.com/items?itemName=nitayneeman.playwright-snippets&wt.mc_id=seriespg_17010_webpage_reactor)**
+* **[TypeScript](https://www.typescriptlang.org/download)**
+* **[Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=seriespg_17010_webpage_reactor)**
+* **[Node.js](https://nodejs.org/en/)**
+* **[ts-node](https://www.npmjs.com/package/ts-node)**
 
-### `npm run build`
+## :link: Links & Recursos Importantes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ✅ **[Documentação Oficial do Playwright](https://playwright.dev/docs/intro)**
+- ✅ **[Documentação Oficial do TypeScript](http://typescriptlang.org/docs/handbook/)**
+- ✅ **[TypeScript no Visual Studio Code](https://code.visualstudio.com/docs/languages/typescript?wt.mc_id=seriespg_17010_webpage_reactor)**
+- ✅ **[Compilando Códigos TypeScript no Vs Code](https://code.visualstudio.com/docs/typescript/typescript-compiling?wt.mc_id=seriespg_17010_webpage_reactor)**
+- ✅ **[Tutorial TypeScript no Vs Code](https://code.visualstudio.com/docs/typescript/typescript-tutorial?wt.mc_id=seriespg_17010_webpage_reactor)**
+- ✅ **[Curso Grátis de Node.js](https://docs.microsoft.com/learn/paths/build-javascript-applications-nodejs/?wt.mc_id=seriespg_17010_webpage_reactor)**
+- ✅ **[Curso Grátis de TypeScript](https://docs.microsoft.com/learn/paths/build-javascript-applications-typescript/?wt.mc_id=seriespg_17010_webpage_reactor)**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :sos: Dúvidas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Caso tenham dúvidas, sintam-se à vontade em abrir uma **[ISSUE AQUI](https://github.com/cyz/react-demo/issues)**.
